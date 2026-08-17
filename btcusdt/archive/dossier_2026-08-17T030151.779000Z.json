@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "schema_version": 1,
+    "t": 1786935711779,
+    "t_iso": "2026-08-17T03:01:51.779000+00:00",
+    "symbol": "BTC/USDT:USDT",
+    "anchor": {
+      "exchange": "binance",
+      "price": 63379.9,
+      "ts": 1786935711122
+    }
+  },
+  "exchanges": {
+    "binance": {
+      "state": {
+        "price": {
+          "ts": 1786935711122,
+          "last": 63379.9,
+          "bid": null,
+          "ask": null
+        },
+        "book": {
+          "ts": 1786935662240,
+          "mid": 63399.95,
+          "spread": 0.09999999999854481,
+          "bid_depth_usd": 4344146.4489,
+          "ask_depth_usd": 3367555.8663,
+          "imbalance": 0.1266374845246698
+        },
+        "open_interest": {
+          "ts": 1786935655669,
+          "open_interest": 110645.643,
+          "oi_notional": null
+        },
+        "funding": {
+          "ts": 1786935655621,
+          "funding_rate": 7.504e-05,
+          "next_funding_ts": "1786953600000",
+          "mark_price": 63400.14015217,
+          "index_price": 63422.73565217
+        }
+      },
+      "windows": {
+        "1h": {
+          "liquidations": {
+            "n": 68,
+            "buy_notional": 401391.57609,
+            "sell_notional": 273201.99016
+          },
+          "flow": {
+            "buy_notional": 505982417.60630834,
+            "sell_notional": 363996074.28314483,
+            "trades_count": 219709,
+            "cvd_delta_usd": 141986343.3231635
+          },
+          "large_trades": {
+            "n": 1008,
+            "buy_notional": 144068152.60500017,
+            "sell_notional": 116704117.57319996
+          },
+          "realized_vol_annual": 0.3782812493075408,
+          "rv_bars_used": 47
+        },
+        "4h": {
+          "liquidations": {
+            "n": 121,
+            "buy_notional": 581886.5829900001,
+            "sell_notional": 370047.86804000003
+          },
+          "flow": {
+            "buy_notional": 1202481138.288195,
+            "sell_notional": 944328746.0398495,
+            "trades_count": 697317,
+            "cvd_delta_usd": 258152392.24834538
+          },
+          "large_trades": {
+            "n": 2042,
+            "buy_notional": 236801798.05690044,
+            "sell_notional": 201047851.5859999
+          },
+          "realized_vol_annual": 0.3079696399701069,
+          "rv_bars_used": 227
+        },
+        "24h": {
+          "liquidations": {
+            "n": 334,
+            "buy_notional": 1058532.92439,
+            "sell_notional": 1707090.49884
+          },
+          "flow": {
+            "buy_notional": 3050862419.89557,
+            "sell_notional": 2786146268.901827,
+            "trades_count": 1746833,
+            "cvd_delta_usd": 264716150.99374294
+          },
+          "large_trades": {
+            "n": 6767,
+            "buy_notional": 629898845.6653011,
+            "sell_notional": 619145637.8607998
+          },
+          "realized_vol_annual": 0.16776228593515866,
+          "rv_bars_used": 1427
+        }
+      },
+      "data_gaps_24h": [
+        {
+          "stream": "trades",
+          "gap_start": 1786853415426,
+          "gap_end": 1786853527426,
+          "reason": "TimeoutError()"
+        }
+      ]
+    }
+  }
+}
